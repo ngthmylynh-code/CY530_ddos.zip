@@ -1,0 +1,38 @@
+{
+  "rows_raw": 431371,
+  "rows_after_inf_nan": 431371,
+  "rows_after_dedup": 421959,
+  "rows_final": 421959,
+  "class_counts": {
+    "NTP": 121368,
+    "TFTP": 98914,
+    "Benign": 94568,
+    "Syn": 47779,
+    "UDP": 27525,
+    "MSSQL": 12228,
+    "UDP-lag": 8915,
+    "DNS": 3669,
+    "LDAP": 2722,
+    "SNMP": 2702,
+    "NetBIOS": 833,
+    "Portmap": 685,
+    "WebDDoS": 51
+  },
+  "csv_files": 1,
+  "versions": {
+    "pandas": "3.0.2",
+    "numpy": "2.4.4",
+    "sklearn": "1.8.0"
+  },
+  "n_features_before_selection": 77,
+  "args": {
+    "data": "/home/claude/full",
+    "out": "/home/claude/results_merged",
+    "max_per_class": 10000000,
+    "test_size": 0.3,
+    "corr_threshold": 0.95,
+    "top_k": 30,
+    "seed": 42,
+    "merge_families": true
+  }
+}
